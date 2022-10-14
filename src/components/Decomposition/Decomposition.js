@@ -150,7 +150,7 @@ function Decomposition(props) {
                   </Weather>
               </Widget>
               <Widget title='Карта Германии' url='/#' className='col-4'>
-                <TextLinkItem url='/#'><p>Расписания</p></TextLinkItem>
+                <TextLinkItem url='/#'>Расписания</TextLinkItem>
               </Widget>
               <Widget title='Эфир' url='/#' className='col-4'>
                 <List className = {'list-group mb-2'}>
@@ -162,8 +162,8 @@ function Decomposition(props) {
                 </List>
               </Widget>
               <Widget title='Посещаемое' url='/#' className='col-4'>
-                <TextLinkItem url='/#'><p><strong>Недвижимость</strong> - о сталинках</p></TextLinkItem>
-                <TextLinkItem url='/#'><p><strong>Маркет</strong> - люстры и светильники</p></TextLinkItem>
+                <TextLinkItem url='/#'><strong>Недвижимость</strong> - о сталинках</TextLinkItem>
+                <TextLinkItem url='/#'><strong>Маркет</strong> - люстры и светильники</TextLinkItem>
               </Widget>
               <Widget title='Телепрограмма' url='/#' className='col-4'>
                 <List className = {'list-group mb-2'}>
