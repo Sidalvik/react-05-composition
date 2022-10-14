@@ -35,7 +35,7 @@ function Cards(props) {
       </Card>
 
       <Card className = {'mb-4 mx-auto'} cardContent = {cardContent2}>
-        {(cardContent2.img && cardContent2.img.src) ? <CardImgTop {...cardContent2.img}/> : null}
+        {/* {(cardContent2.img && cardContent2.img.src) ? <CardImgTop {...cardContent2.img}/> : null} */}
       </Card>
     </div>
   )

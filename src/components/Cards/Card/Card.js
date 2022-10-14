@@ -10,16 +10,13 @@ function Card(props) {
         width: "18rem",
       };
     
-    const body = [
-        <CardTitle title = {cardContent.title}/>,
-        cardContent.content.map((item) => <p>{item}</p>)
-    ];
-
       return (
         <div className = {className + " card"} style = {{...style, ...cardStyle}}>
             {props.children}
             <CardBody cardBtn = {cardContent.btn}>
-                {body}
+                {/* {body} */}
+                <CardTitle title = {cardContent.title}/>
+                {cardContent.content.map((item, index) => <p key = {index}>{item}</p>)}
             </CardBody>
         </div>
       )
